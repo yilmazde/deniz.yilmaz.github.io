@@ -272,3 +272,34 @@ h4 {
 .contact-list li a:hover {
   color: var(--accent);
 }
+
+/* === FUNDING === */
+.funding-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.funding-list li {
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+  font-size: 0.95rem;
+}
+
+.funding-year {
+  color: var(--muted);
+  font-size: 0.85rem;
+  min-width: 70px;
+}
+
+.funding-title {
+  font-weight: 500;
+  flex: 1;
+}
+
+.funding-org {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
