@@ -303,3 +303,9 @@ h4 {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.pronouns {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 0.75rem;
+}
