@@ -216,67 +216,42 @@ h4 {
 
 .conf-item {
   display: grid;
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 160px 1fr;
   gap: 1.5rem;
   align-items: center;
 }
 
 .conf-photo img {
-  width: 120px;
+  width: 160px;
   height: 120px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 8px;
   filter: sepia(10%);
 }
 
 .conf-photo.no-photo {
-  width: 120px;
+  width: 160px;
   height: 120px;
   background-color: var(--border);
-  border-radius: 50%;
-}
-
-.conf-text h4 {
-  font-family: 'Lora', serif;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  text-transform: none;
-  letter-spacing: 0;
-  margin: 0.25rem 0 0.25rem;
-}
-
-.conf-text p {
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-
-.conf-type {
-  display: inline-block;
-  font-size: 0.75rem;
-  padding: 0.1rem 0.5rem;
-  border-radius: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'DM Sans', sans-serif;
-}
-
-.conf-type.talk {
-  background-color: var(--border);
+  font-size: 0.75rem;
+  font-weight: 500;
   color: var(--muted);
-}
-
-.conf-type.invited {
-  background-color: #f0e8e0;
-  color: var(--accent);
+  letter-spacing: 0.05em;
 }
 
 @media (max-width: 600px) {
   .conf-item {
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 120px 1fr;
   }
 
   .conf-photo img,
   .conf-photo.no-photo {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 90px;
   }
 }
