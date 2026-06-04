@@ -232,16 +232,8 @@ h4 {
 .conf-photo.no-photo {
   width: 160px;
   height: 120px;
-  background-color: var(--border);
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--muted);
-  letter-spacing: 0.05em;
+  background: linear-gradient(135deg, #f0e8e0, #e5ddd4, #d4c4b0);
 }
 
 @media (max-width: 600px) {
