@@ -280,3 +280,6 @@ h4 {
     height: 160px;
   }
 }
+.about-text p + p {
+  margin-top: 1rem;
+}
