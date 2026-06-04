@@ -247,3 +247,7 @@ h4 {
     height: 90px;
   }
 }
+
+.about-text p + p {
+  margin-top: 1rem;
+}
