@@ -1,0 +1,128 @@
+/* === FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+/* === VARIABLES === */
+:root {
+  --bg: #faf7f2;
+  --text: #2c2c2c;
+  --muted: #7a7065;
+  --accent: #b05c3a;
+  --border: #e5ddd4;
+  --max-width: 720px;
+}
+
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.75;
+  padding: 0 1.5rem;
+}
+
+/* === NAV === */
+nav {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-name {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--accent);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* === MAIN === */
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+/* === ABOUT === */
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  color: var(--accent);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+/* === HEADINGS === */
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* === LINKS === */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === MOBILE === */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    gap: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
