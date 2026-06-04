@@ -216,24 +216,25 @@ h4 {
 
 .conf-item {
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 200px 1fr;
   gap: 1.5rem;
   align-items: center;
 }
 
 .conf-photo img {
-  width: 160px;
-  height: 120px;
+  width: 200px;
+  height: 150px;
   object-fit: cover;
   border-radius: 8px;
   filter: sepia(10%);
 }
 
 .conf-photo.no-photo {
-  width: 160px;
-  height: 120px;
+  width: 200px;
+  height: 150px;
   border-radius: 8px;
   background: linear-gradient(135deg, #f0e8e0, #e5ddd4, #d4c4b0);
+}
 }
 
 @media (max-width: 600px) {
