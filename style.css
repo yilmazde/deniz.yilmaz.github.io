@@ -126,3 +126,14 @@ a:hover {
     font-size: 1.8rem;
   }
 }
+
+/* === YEAR HEADERS === */
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 2rem 0 0.75rem;
+}
